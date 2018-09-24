@@ -53,16 +53,6 @@ public class DFSNonRecursive {
 		}
 	}
 	
-	/*public void postorder(Node root) {
-		Stack<Node> stack = new Stack<>();
-		
-		while(true) {
-			while(root != null ) {
-				stack.push(root);
-				root
-			}
-		}
-	}*/
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
