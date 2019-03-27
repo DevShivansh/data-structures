@@ -1,0 +1,19 @@
+package com.devglan;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.devglan.dao.GroupDetailsDAO;
+import com.devglan.dao.impl.GroupDetailsDAOImpl;
+
+@SpringBootApplication
+public class Application {
+	
+	
+
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+        
+    }
+
+}
